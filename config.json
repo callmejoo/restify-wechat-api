@@ -1,0 +1,11 @@
+{
+    "secret" : {
+        "Token" : "xcc",
+        "AppID" : "wxd5b1568e1623fee4",
+        "AppSecret" : "f22af3f2f1f4edd8182b2b80405191d3"
+    },
+    "other":{
+        "Port": 9000,
+        "needCheck": true
+    }
+}
