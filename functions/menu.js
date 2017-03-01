@@ -1,6 +1,3 @@
-/**
- * Created by Romy on 2017/2/27.
- */
 createMenu(function () {
     console.log('菜单配置发送成功！');
 });
