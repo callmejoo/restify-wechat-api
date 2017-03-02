@@ -10,6 +10,7 @@ exports.do = function (res, data, callback) {
     var msgType = data.xml.MsgType;
     var text = data.xml.Content;
     var msgId = data.xml.MsgId;
+    text = text.toLowerCase().replace(' ','');
     console.log('↓ '+ text);
     var send = {};
     send.text = function (content) {
